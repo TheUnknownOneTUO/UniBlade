@@ -2199,7 +2199,7 @@ class Orb extends Projectile {
 class Fireball extends Projectile {
   constructor() {
 
-    super('Fireball', 2, 16, 16, 80, 'destroy', fireballProjectileSprite)
+    super('Fireball', 2.5, 16, 16, 80, 'destroy', fireballProjectileSprite)
 
     this.hasDeflected = false
 
